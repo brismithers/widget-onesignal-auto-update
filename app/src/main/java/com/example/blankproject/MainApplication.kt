@@ -10,7 +10,7 @@ class MainApplication : Application() {
 
         OneSignal.setLogLevel(OneSignal.LOG_LEVEL.VERBOSE, OneSignal.LOG_LEVEL.NONE)
         OneSignal.initWithContext(this)
-        OneSignal.setAppId("30a1b7eb-eed9-471c-b8fb-da45a62d307c")
+        OneSignal.setAppId("YOUR-APP-ID")
     }
 
 
